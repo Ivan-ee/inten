@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>INTEN :: Корзина</title>
+    <title>INTEN :: Оплата</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -170,7 +170,7 @@
                         <nav class="breadcrumbs">
                             <ul class="">
                                 <li><a href="index.html">Главная</a></li>
-                                <li><span>Корзина</span></li>
+                                <li><span>Оплата</span></li>
                             </ul>
                         </nav>
                     </div>
@@ -178,80 +178,51 @@
             </div>
 
             <div class="container-fluid ps-0 pe-0">
-                <div class="row ">
-                    <div class="col-lg-8">
-                        <div class="cart-content h-100">
-                            <div class="table-responsive">
-                                <table class="table align-middle">
-                                    <thead class="table-dark ">
-                                    <tr>
-                                        <th>Фото</th>
-                                        <th>Товар</th>
-                                        <th>Цена</th>
-                                        <th>Количество</th>
-                                        <th><i class="fa-solid fa-trash" style="color: #ffffff;"></i></th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
-                                        <td class="product-img-td"><a href="#"><img src="assets/img/products/1.jpg" alt=""></a></td>
-                                        <td><a href="#">Product 1</a></td>
-                                        <td>$65</td>
-                                        <td>
-                                            <input type="number" value="1" min="1" class="form-control cart-qty">
-                                        </td>
-                                        <td><button class="btn btn-danger"><i class="fa-regular fa-circle-xmark"></i></button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="product-img-td"><a href="#"><img src="assets/img/products/2.jpg" alt=""></a></td>
-                                        <td><a href="#">Product 2</a></td>
-                                        <td>$80</td>
-                                        <td>
-                                            <input type="number" value="1" min="1" class="form-control cart-qty">
-                                        </td>
-                                        <td><button class="btn btn-danger"><i class="fa-regular fa-circle-xmark"></i></button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td class="product-img-td"><a href="#"><img src="assets/img/products/3.jpg" alt=""></a></td>
-                                        <td><a href="#">Product 3</a></td>
-                                        <td>$100</td>
-                                        <td>
-                                            <input type="number" value="1" min="1" class="form-control cart-qty">
-                                        </td>
-                                        <td><button class="btn btn-danger"><i class="fa-regular fa-circle-xmark"></i></button>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                    <tfoot>
-                                    <tr>
-                                        <td colspan="5" class="text-end">
-                                            <button class="btn btn-danger">Обновить корзину</button>
-                                        </td>
-                                    </tr>
-                                    </tfoot>
-                                </table>
+
+                <form action="#" class="needs-validation" novalidate>
+                    <div class="row ">
+                        <div class="col-lg-8">
+                            <div class="cart-content">
+                                <h1 class="section-title h4 mb-4"><span>Данные</span></h1>
+
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">Имя</label>
+                                        <input type="text" class="form-control" placeholder="Имя" id="name" aria-label="First name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="last-name" class="form-label">Фамилия</label>
+                                        <input type="text" class="form-control" placeholder="Фамилия" id="last-name" aria-label="Last name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">Имя</label>
+                                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="name" class="form-label">Имя</label>
+                                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="cart-summary sidebar">
+                                <h5 class="section-title mb-4"><span>Сумма</span></h5>
+
+                                <div class="d-grid">
+                                    <a href="#" class="btn btn-outline-danger">Оплата</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="cart-summary sidebar">
-                            <h5 class="section-title mb-4"><span>Сумма</span></h5>
+                </form>
 
-                            <div class="d-flex justify-content-between">
-                                <h6>Итог</h6>
-                                <h6>15000р</h6>
-                            </div>
-
-                            <div class="d-grid">
-                            <a href="#" class="btn btn-outline-danger">Оплата</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-
         </div>
     </main>
 

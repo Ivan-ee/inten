@@ -71,6 +71,28 @@ body{
   }
 }
 
+.cart-content{
+  table{
+    img{
+      max-width: 100px;
+      max-height: 100px;
+    }
+
+    a{
+      text-decoration: none;
+      display: block;
+    }
+
+    a:hover{
+      color: #d00d0d;
+    }
+
+    .cart-qty{
+      width: 70px;
+    }
+  }
+}
+
 .custom-btn:active{
   background-color: black;
 }
