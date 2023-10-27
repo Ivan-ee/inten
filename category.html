@@ -1,0 +1,622 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>INTEN :: Категории товаров</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/owl.theme.default.min.css">
+    <link href="assets/scss/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="wrapper">
+    <header class="header border-bottom">
+
+        <nav class="header-top">
+            <div class="custom-width">
+                <div class="row pt-2 pb-2">
+                    <ul class="col-md-4 d-flex justify-content-left ms-0 mb-0 ps-0 pe-0">
+                        <li>
+                            <a href="#"><i class="fa-solid fa-location-dot me-1" style="color: #ffffff;"></i>Краснодар</a>
+                        </li>
+                        <li class="ms-4">
+                            <a href="tel: +7 861 202-54-44">+7 (861) 202-54-44</a>
+                        </li>
+                    </ul>
+
+                    <ul class="col-md-8 d-flex justify-content-end ms-0 mb-0 ps-0 pe-0">
+                        <li class="ms-4"><a href="#">Компания</a></li>
+                        <li class="ms-4"><a href="#">Доставка</a></li>
+                        <li class="ms-4"><a href="#">Услуги</a></li>
+                        <li class="ms-4"><a href="#">Оплата</a></li>
+                        <li class="ms-4"><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="header-bottom custom-width pt-3 pb-3">
+            <div class="row align-items-center">
+                <div class="col-md-2 header-logo text-left ps-0 pe-0 ">
+                    <a href="index.html" class="">INTEN</a>
+                </div>
+
+                <div class="col-md-2 navbar navbar-expand-lg text-center ">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse text-left" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle custom-border-radius" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Каталог товаров
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="category.html">Антенны</a></li>
+                                    <li><a class="dropdown-item" href="category.html">Источники питания</a></li>
+                                    <li><a class="dropdown-item" href="category.html">Системы оповещения</a></li>
+                                    <li><a class="dropdown-item" href="category.html">Пожарная сигнализация</a></li>
+                                    <li><a class="dropdown-item" href="category.html">Радиостанции и аксессуары</a></li>
+                                    <li><a class="dropdown-item" href="category.html">Сетевое оборудование</a></li>
+                                    <li><a class="dropdown-item" href="category.html">Система контроля и управления доступом</a></li>
+                                    <li><a class="dropdown-item" href="category.html">Кабели</a></li>
+                                    <li><a class="dropdown-item" href="category.html">Короба и разъемы</a></li>
+                                    <li><a class="dropdown-item" href="category.html">Оборудование СКС</a></li>
+                                    <li><a class="dropdown-item" href="category.html">Расходные материалы</a></li>
+                                    <li><a class="dropdown-item" href="category.html">Защита информации</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item text-danger" href="#">Распродажа</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4 ps-5 pe-0">
+                    <form action="" class="">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-black " name="s" placeholder="Поиск" aria-label="Searching..." aria-describedby="button-search">
+                            <button class="custom-btn ps-3 pe-3" type="submit" id="button-search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-4 d-flex align-items-center justify-content-end ps-0 pe-0">
+
+                    <a href="#" class="btn cart position-relative">
+                        <i class="fa-solid fa-heart"  style="color: #000000;"></i>
+
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">4</span>
+                    </a>
+
+                    <button type="button" class="btn cart position-relative  ms-3" id="cart-open" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">
+                        <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">1</span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCart" aria-labelledby="offcanvasCartLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasCartLabel">Понравившиеся</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+
+                        <div class="offcanvas-body">
+                            <div class="table-responsive">
+                                <table class="table offcanvasCart-table">
+                                    <tbody>
+                                    <tr>
+                                        <td class="product-img-td"><a href="#"><img src="assets/img/products/1.jpg" alt=""></a>
+                                        </td>
+                                        <td><a href="#">Product 1</a></td>
+                                        <td>$65</td>
+                                        <td>&times;1</td>
+                                        <td><button class="btn btn-danger"><i class="fa-regular fa-circle-xmark"></i></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="product-img-td"><a href="#"><img src="assets/img/products/2.jpg" alt=""></a>
+                                        </td>
+                                        <td><a href="#">Product 2</a></td>
+                                        <td>$80</td>
+                                        <td>&times;2</td>
+                                        <td><button class="btn btn-danger"><i class="fa-regular fa-circle-xmark"></i></button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="product-img-td"><a href="#"><img src="assets/img/products/3.jpg" alt=""></a>
+                                        </td>
+                                        <td><a href="#">Product 3</a></td>
+                                        <td>$100</td>
+                                        <td>&times;1</td>
+                                        <td><button class="btn btn-danger"><i class="fa-regular fa-circle-xmark"></i></button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                    <tfoot>
+                                    <tr>
+                                        <td colspan="4" class="text-end">Total:</td>
+                                        <td>$325</td>
+                                    </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="custom-width">
+
+            <div class="container-fluid ps-0 pe-0">
+                <div class="row ">
+                    <div class="col-12 pe-0 ps-0">
+                        <nav class="breadcrumbs">
+                            <ul class="">
+                                <li><a href="index.html">Главная</a></li>
+                                <li><a href="#">Магазин</a></li>
+                                <li><span>Название категории</span></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid ps-0 pe-0">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 pe-5 ps-0">
+
+                        <div class="sidebar">
+                            <button class="btn w-100 bg-black text-white collapse-btn mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFilters" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fa-solid fa-filter" style="color: #ffffff;"></i>
+                                Фильрты
+                            </button>
+
+                            <div class="collapse collapse-filters" id="collapseFilters">
+                                <div class="filter-block pb-4">
+                                    <h5 class="section-title"><span>Filter by color</span></h5>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <div>
+                                            <input class="form-check-input" type="checkbox" value="" id="black">
+                                            <label class="form-check-label" for="black">
+                                                Black
+                                            </label>
+                                        </div>
+                                        <span class="badge border text-black">100</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <div>
+                                            <input class="form-check-input" type="checkbox" value="" id="red">
+                                            <label class="form-check-label" for="red">
+                                                Red
+                                            </label>
+                                        </div>
+                                        <span class="badge border text-black">29</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <div>
+                                            <input class="form-check-input" type="checkbox" value="" id="white">
+                                            <label class="form-check-label" for="white">
+                                                White
+                                            </label>
+                                        </div>
+                                        <span class="badge border text-black">7</span>
+                                    </div>
+                                </div>
+
+                                <div class="filter-block pb-4">
+                                    <h5 class="section-title"><span>Filter by size</span></h5>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <div>
+                                            <input class="form-check-input" type="checkbox" value="" id="s">
+                                            <label class="form-check-label" for="black">
+                                                S
+                                            </label>
+                                        </div>
+                                        <span class="badge border text-black">3</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <div>
+                                            <input class="form-check-input" type="checkbox" value="" id="m">
+                                            <label class="form-check-label" for="red">
+                                                M
+                                            </label>
+                                        </div>
+                                        <span class="badge border text-black">17</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <div>
+                                            <input class="form-check-input" type="checkbox" value="" id="l">
+                                            <label class="form-check-label" for="white">
+                                                L
+                                            </label>
+                                        </div>
+                                        <span class="badge border text-black">69</span>
+                                    </div>
+                                </div>
+
+                                <div class="filter-block pb-4">
+                                    <h5 class="section-title"><span>Filter by type</span></h5>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <div>
+                                            <input class="form-check-input" type="checkbox" value="" id="men">
+                                            <label class="form-check-label" for="black">
+                                                Men
+                                            </label>
+                                        </div>
+                                        <span class="badge border text-black">100</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <div>
+                                            <input class="form-check-input" type="checkbox" value="" id="women">
+                                            <label class="form-check-label" for="red">
+                                                Women
+                                            </label>
+                                        </div>
+                                        <span class="badge border text-black">74</span>
+                                    </div>
+                                    <div class="form-check d-flex justify-content-between">
+                                        <div>
+                                            <input class="form-check-input" type="checkbox" value="" id="child">
+                                            <label class="form-check-label" for="white">
+                                                Child
+                                            </label>
+                                        </div>
+                                        <span class="badge border text-black">103</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-9 col-md-8 pe-0 ps-0">
+                        <div class="row">
+
+                            <div class="col-sm-6">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">Sort By:</span>
+                                    <select class="form-select" aria-label="Sort by:">
+                                        <option selected>Default</option>
+                                        <option value="1">Name (a-z)</option>
+                                        <option value="2">Name (z-a)</option>
+                                        <option value="3">Price (low &gt; high)</option>
+                                        <option value="4">Price (high &gt; low)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text">Show:</span>
+                                    <select class="form-select" aria-label="Show:">
+                                        <option selected>9</option>
+                                        <option value="15">15</option>
+                                        <option value="30">30</option>
+                                        <option value="45">45</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 mb-3">
+                                <div class="product-cart">
+                                    <div class="product-cart-offer">
+                                        <div class="offer-hit">Хит</div>
+                                        <!--<div class="offer-new">Новинка</div>-->
+                                    </div>
+                                    <div class="product-thumb">
+                                        <a href="#"> <img src="assets/img/products/6.jpg" alt="A-100"></a>
+                                    </div>
+                                    <div class="products-details">
+                                        <h4>
+                                            <a href="#">Антенна ADM153</a>
+                                        </h4>
+                                        <p class="product-expect">
+                                            Автомобильная антенна на магнитном основании.
+                                        </p>
+                                        <div class="product-bottom-details d-flex justify-content-between align-items-center">
+                                            <div class="product-price">
+                                                4 999 р.
+                                            </div>
+                                            <div class="product-links">
+                                                <a href="#" class="btn btn-secondary">В корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 mb-3">
+                                <div class="product-cart">
+                                    <div class="product-cart-offer">
+                                        <div class="offer-hit">Хит</div>
+                                        <!--<div class="offer-new">Новинка</div>-->
+                                    </div>
+                                    <div class="product-thumb">
+                                        <a href="#"> <img src="assets/img/products/6.jpg" alt="A-100"></a>
+                                    </div>
+                                    <div class="products-details">
+                                        <h4>
+                                            <a href="#">Антенна ADM153</a>
+                                        </h4>
+                                        <p class="product-expect">
+                                            Автомобильная антенна на магнитном основании.
+                                        </p>
+                                        <div class="product-bottom-details d-flex justify-content-between align-items-center">
+                                            <div class="product-price">
+                                                4 999 р.
+                                            </div>
+                                            <div class="product-links">
+                                                <a href="#" class="btn btn-secondary">В корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 mb-3">
+                                <div class="product-cart">
+                                    <div class="product-cart-offer">
+                                        <div class="offer-hit">Хит</div>
+                                        <!--<div class="offer-new">Новинка</div>-->
+                                    </div>
+                                    <div class="product-thumb">
+                                        <a href="#"> <img src="assets/img/products/6.jpg" alt="A-100"></a>
+                                    </div>
+                                    <div class="products-details">
+                                        <h4>
+                                            <a href="#">Антенна ADM153</a>
+                                        </h4>
+                                        <p class="product-expect">
+                                            Автомобильная антенна на магнитном основании.
+                                        </p>
+                                        <div class="product-bottom-details d-flex justify-content-between align-items-center">
+                                            <div class="product-price">
+                                                4 999 р.
+                                            </div>
+                                            <div class="product-links">
+                                                <a href="#" class="btn btn-secondary">В корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 mb-3">
+                                <div class="product-cart">
+                                    <div class="product-cart-offer">
+                                        <div class="offer-hit">Хит</div>
+                                        <!--<div class="offer-new">Новинка</div>-->
+                                    </div>
+                                    <div class="product-thumb">
+                                        <a href="#"> <img src="assets/img/products/6.jpg" alt="A-100"></a>
+                                    </div>
+                                    <div class="products-details">
+                                        <h4>
+                                            <a href="#">Антенна ADM153</a>
+                                        </h4>
+                                        <p class="product-expect">
+                                            Автомобильная антенна на магнитном основании.
+                                        </p>
+                                        <div class="product-bottom-details d-flex justify-content-between align-items-center">
+                                            <div class="product-price">
+                                                4 999 р.
+                                            </div>
+                                            <div class="product-links">
+                                                <a href="#" class="btn btn-secondary">В корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 mb-3">
+                                <div class="product-cart">
+                                    <div class="product-cart-offer">
+                                        <div class="offer-hit">Хит</div>
+                                        <!--<div class="offer-new">Новинка</div>-->
+                                    </div>
+                                    <div class="product-thumb">
+                                        <a href="#"> <img src="assets/img/products/6.jpg" alt="A-100"></a>
+                                    </div>
+                                    <div class="products-details">
+                                        <h4>
+                                            <a href="#">Антенна ADM153</a>
+                                        </h4>
+                                        <p class="product-expect">
+                                            Автомобильная антенна на магнитном основании.
+                                        </p>
+                                        <div class="product-bottom-details d-flex justify-content-between align-items-center">
+                                            <div class="product-price">
+                                                4 999 р.
+                                            </div>
+                                            <div class="product-links">
+                                                <a href="#" class="btn btn-secondary">В корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 mb-3">
+                                <div class="product-cart">
+                                    <div class="product-cart-offer">
+                                        <div class="offer-hit">Хит</div>
+                                        <!--<div class="offer-new">Новинка</div>-->
+                                    </div>
+                                    <div class="product-thumb">
+                                        <a href="#"> <img src="assets/img/products/6.jpg" alt="A-100"></a>
+                                    </div>
+                                    <div class="products-details">
+                                        <h4>
+                                            <a href="#">Антенна ADM153</a>
+                                        </h4>
+                                        <p class="product-expect">
+                                            Автомобильная антенна на магнитном основании.
+                                        </p>
+                                        <div class="product-bottom-details d-flex justify-content-between align-items-center">
+                                            <div class="product-price">
+                                                4 999 р.
+                                            </div>
+                                            <div class="product-links">
+                                                <a href="#" class="btn btn-secondary">В корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 mb-3">
+                                <div class="product-cart">
+                                    <div class="product-cart-offer">
+                                        <div class="offer-hit">Хит</div>
+                                        <!--<div class="offer-new">Новинка</div>-->
+                                    </div>
+                                    <div class="product-thumb">
+                                        <a href="#"> <img src="assets/img/products/6.jpg" alt="A-100"></a>
+                                    </div>
+                                    <div class="products-details">
+                                        <h4>
+                                            <a href="#">Антенна ADM153</a>
+                                        </h4>
+                                        <p class="product-expect">
+                                            Автомобильная антенна на магнитном основании.
+                                        </p>
+                                        <div class="product-bottom-details d-flex justify-content-between align-items-center">
+                                            <div class="product-price">
+                                                4 999 р.
+                                            </div>
+                                            <div class="product-links">
+                                                <a href="#" class="btn btn-secondary">В корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 mb-3">
+                                <div class="product-cart">
+                                    <div class="product-cart-offer">
+                                        <div class="offer-hit">Хит</div>
+                                        <!--<div class="offer-new">Новинка</div>-->
+                                    </div>
+                                    <div class="product-thumb">
+                                        <a href="#"> <img src="assets/img/products/6.jpg" alt="A-100"></a>
+                                    </div>
+                                    <div class="products-details">
+                                        <h4>
+                                            <a href="#">Антенна ADM153</a>
+                                        </h4>
+                                        <p class="product-expect">
+                                            Автомобильная антенна на магнитном основании.
+                                        </p>
+                                        <div class="product-bottom-details d-flex justify-content-between align-items-center">
+                                            <div class="product-price">
+                                                4 999 р.
+                                            </div>
+                                            <div class="product-links">
+                                                <a href="#" class="btn btn-secondary">В корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-sm-6 mb-3">
+                                <div class="product-cart">
+                                    <div class="product-cart-offer">
+                                        <div class="offer-hit">Хит</div>
+                                        <!--<div class="offer-new">Новинка</div>-->
+                                    </div>
+                                    <div class="product-thumb">
+                                        <a href="#"> <img src="assets/img/products/6.jpg" alt="A-100"></a>
+                                    </div>
+                                    <div class="products-details">
+                                        <h4>
+                                            <a href="#">Антенна ADM153</a>
+                                        </h4>
+                                        <p class="product-expect">
+                                            Автомобильная антенна на магнитном основании.
+                                        </p>
+                                        <div class="product-bottom-details d-flex justify-content-between align-items-center">
+                                            <div class="product-price">
+                                                4 999 р.
+                                            </div>
+                                            <div class="product-links">
+                                                <a href="#" class="btn btn-secondary">В корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Previous">
+                                                <span aria-hidden="true">&laquo;</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                        <li class="page-item active" aria-current="page"><a class="page-link" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="#" aria-label="Next">
+                                                <span aria-hidden="true">&raquo;</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="text-white">
+            <div class="pt-5 pb-5 custom-width justify-content-between d-flex">
+                <div class="d-flex">
+                    &copy; Все права защищены. Inten 2023.
+                </div>
+
+                <div class="d-flex align-items-center">
+                    <i class="fa-brands fa-instagram fa-xl" style="color: white;"></i>
+                    <i class="fa-brands fa-whatsapp fa-xl ms-3" style="color: white;"></i>
+                    <i class="fa-brands fa-telegram fa-xl ms-3" style="color: white;"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="assets/owlcarousel/owl.carousel.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
