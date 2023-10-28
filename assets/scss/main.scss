@@ -144,7 +144,7 @@ main.main{
 
   a:hover{
     color: var(--links-hover-color);
-    transition: all 0.2s;
+    transition: all 0.4s;
   }
 }
 
@@ -160,13 +160,13 @@ main.main{
 
   a:hover{
     color:black ;
-    transition: all 0.2s;
+    transition: all 0.4s;
   }
 
   .cart{
     border-radius: 10px !important;
 
-    transition: all 0.2s;
+    transition: all 0.4s;
   }
 
   .cart:hover{
@@ -200,7 +200,7 @@ main.main{
 }
 
 .product-cart{
-  transition: all 0.2s;
+  transition: all 0.4s;
   border-radius: 10px;
   /*border: 1px solid black;*/
 
@@ -303,6 +303,23 @@ main.main{
   }
 }
 
+.footer{
+.btn-gray{
+  border: none;
+  color:white;
+
+  transition:all 0.4s;
+}
+
+  .btn-gray:hover{
+    color:var(--links-hover-color);
+  }
+
+  .btn-gray:active{
+    color: white;
+  }
+}
+
 .product-expect{
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -332,7 +349,7 @@ main.main{
   a{
     text-decoration: none;
     color: black;
-    transition: all 0.2s;
+    transition: all 0.4s;
     margin-right: 0.5rem;
   }
 

@@ -121,7 +121,7 @@ main.main {
 }
 .header-top a:hover {
   color: var(--links-hover-color);
-  transition: all 0.2s;
+  transition: all 0.4s;
 }
 
 .header-bottom .header-logo {
@@ -133,11 +133,11 @@ main.main {
 }
 .header-bottom a:hover {
   color: black;
-  transition: all 0.2s;
+  transition: all 0.4s;
 }
 .header-bottom .cart {
   border-radius: 10px !important;
-  transition: all 0.2s;
+  transition: all 0.4s;
 }
 .header-bottom .cart:hover {
   border: 1px solid black;
@@ -167,7 +167,7 @@ main.main {
 }
 
 .product-cart {
-  transition: all 0.2s;
+  transition: all 0.4s;
   border-radius: 10px;
   /*border: 1px solid black;*/
   padding: 5px;
@@ -248,6 +248,18 @@ main.main {
   background-color: black;
 }
 
+.footer .btn-gray {
+  border: none;
+  color: white;
+  transition: all 0.4s;
+}
+.footer .btn-gray:hover {
+  color: var(--links-hover-color);
+}
+.footer .btn-gray:active {
+  color: white;
+}
+
 .product-expect {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -276,7 +288,7 @@ main.main {
 .breadcrumbs a {
   text-decoration: none;
   color: black;
-  transition: all 0.2s;
+  transition: all 0.4s;
   margin-right: 0.5rem;
 }
 .breadcrumbs a:hover {

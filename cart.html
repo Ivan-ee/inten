@@ -25,7 +25,7 @@
         <nav class="header-top">
             <div class="custom-width">
                 <div class="row pt-2 pb-2">
-                    <ul class="col-md-4 d-flex justify-content-left ms-0 mb-0 ps-0 pe-0">
+                    <ul class="col-md-4 d-flex justify-content-left ms-0 mb-0 ">
                         <li>
                             <a href="#"><i class="fa-solid fa-location-dot me-1" style="color: #ffffff;"></i>Краснодар</a>
                         </li>
@@ -45,20 +45,17 @@
             </div>
         </nav>
 
-        <nav class="header-bottom custom-width pt-3 pb-3">
+        <nav class="header-bottom custom-width pt-2 pb-2">
             <div class="row align-items-center">
-                <div class="col-md-2 header-logo text-left ps-0 pe-0 ">
+                <div class="col-md-2 header-logo text-left pe-0 ">
                     <a href="index.html" class="">INTEN</a>
                 </div>
 
                 <div class="col-md-2 navbar navbar-expand-lg text-center ">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse text-left" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse text-left">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle custom-border-radius" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle custom-border-radius ps-3 pe-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Каталог товаров
                                 </a>
                                 <ul class="dropdown-menu">
@@ -85,7 +82,7 @@
                 <div class="col-md-4 ps-5 pe-0">
                     <form action="" class="">
                         <div class="input-group">
-                            <input type="text" class="form-control border-black " name="s" placeholder="Поиск" aria-label="Searching..." aria-describedby="button-search">
+                            <input type="text" class="form-control" name="s" placeholder="Поиск" aria-label="Searching..." aria-describedby="button-search">
                             <button class="custom-btn ps-3 pe-3" type="submit" id="button-search">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </button>
@@ -96,13 +93,13 @@
                 <div class="col-md-4 d-flex align-items-center justify-content-end ps-0 pe-0">
 
                     <a href="#" class="btn cart position-relative">
-                        <i class="fa-solid fa-heart"  style="color: #000000;"></i>
+                        <i class="fa-solid fa-heart fa-xl"></i>
 
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">4</span>
                     </a>
 
                     <button type="button" class="btn cart position-relative  ms-3" id="cart-open" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">
-                        <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+                        <i class="fa-solid fa-cart-shopping fa-xl"></i>
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">1</span>
                     </button>
 
@@ -151,6 +148,11 @@
                                     </tr>
                                     </tfoot>
                                 </table>
+                            </div>
+
+                            <div class="text-end mt-3">
+                                <a href="#" class="btn btn-outline-warning">Cart</a>
+                                <a href="#" class="btn btn-outline-secondary">Checkout</a>
                             </div>
 
                         </div>
@@ -263,9 +265,9 @@
                 </div>
 
                 <div class="d-flex align-items-center">
-                    <i class="fa-brands fa-instagram fa-xl" style="color: white;"></i>
-                    <i class="fa-brands fa-whatsapp fa-xl ms-3" style="color: white;"></i>
-                    <i class="fa-brands fa-telegram fa-xl ms-3" style="color: white;"></i>
+                    <a href="#" class="btn-gray"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    <a href="#" class="btn-gray"><i class="fa-brands fa-whatsapp fa-xl ms-3"></i></a>
+                    <a href="#" class="btn-gray"><i class="fa-brands fa-telegram fa-xl ms-3"></i></a>
                 </div>
             </div>
         </div>
