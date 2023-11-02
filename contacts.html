@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>INTEN :: Оплата</title>
+    <title>INTEN :: Контакты</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -22,19 +22,19 @@
 <div class="wrapper">
     <header class="header border-bottom">
 
-        <nav class="header-top">
+        <nav class="header-top d-none d-xl-block">
             <div class="custom-width">
                 <div class="row pt-2 pb-2">
-                    <ul class="col-md-4 d-flex justify-content-left ms-0 mb-0 ">
+                    <ul class="col-md-5 d-flex justify-content-left ms-0 mb-0 ">
                         <li>
-                            <a href="#"><i class="fa-solid fa-location-dot me-1" style="color: #ffffff;"></i>Краснодар</a>
+                            <a href="#"><i class="fa-solid fa-location-dot me-2"></i>Краснодар</a>
                         </li>
                         <li class="ms-4">
                             <a href="tel: +7 861 202-54-44">+7 (861) 202-54-44</a>
                         </li>
                     </ul>
 
-                    <ul class="col-md-8 d-flex justify-content-end ms-0 mb-0 ps-0 pe-0">
+                    <ul class="col-md-7 d-flex justify-content-end ms-0 mb-0 ps-0 pe-0">
                         <li class="ms-4"><a href="contacts.html">Компания</a></li>
                         <li class="ms-4"><a href="#">Доставка</a></li>
                         <li class="ms-4"><a href="#">Услуги</a></li>
@@ -47,11 +47,11 @@
 
         <nav class="header-bottom custom-width pt-2 pb-2">
             <div class="row align-items-center">
-                <div class="col-md-2 header-logo text-left pe-0 ">
+                <div class="col-12 col-xl-2 header-logo text-left pe-0">
                     <a href="index.html" class="">INTEN</a>
                 </div>
 
-                <div class="col-md-2 navbar navbar-expand-lg text-center ">
+                <div class="d-none d-xl-block col-md-2 navbar navbar-expand-xl text-center">
                     <div class="collapse navbar-collapse text-left">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item dropdown">
@@ -79,7 +79,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4 ps-5 pe-0">
+                <div class="input col-12 ps-0 col-xl-4 ps-5 pe-0">
                     <form action="" class="">
                         <div class="input-group">
                             <input type="text" class="form-control" name="s" placeholder="Поиск" aria-label="Searching..." aria-describedby="button-search">
@@ -90,7 +90,7 @@
                     </form>
                 </div>
 
-                <div class="col-md-4 d-flex align-items-center justify-content-end ps-0 pe-0">
+                <div class="col-md-4 d-flex align-items-center ps-0 pe-0 d-none d-xl-block text-end">
 
                     <a href="#" class="btn cart position-relative">
                         <i class="fa-solid fa-heart fa-xl"></i>
@@ -164,68 +164,28 @@
     </header>
 
     <main class="main">
-        <div class="custom-width">
 
-            <div class="container-fluid ps-0 pe-0">
-                <div class="row ">
-                    <div class="col-12 pe-0 ps-0">
-                        <nav class="breadcrumbs">
-                            <ul class="">
-                                <li><a href="index.html">Главная</a></li>
-                                <li><span>Оплата</span></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+        <section class="custom-width">
+            <div class="container-fluid ps-0 pe-0 mt-5">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa20d78047a2991570d24f452ded78de744c5b5c124d9e038d98c8876c8c9912f&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
             </div>
+        </section>
 
-            <div class="container-fluid ps-0 pe-0">
-
-                <form action="#" class="needs-validation" novalidate>
-                    <div class="row ">
-                        <div class="col-lg-8">
-                            <div class="cart-content">
-                                <h1 class="section-title h4 mb-4"><span>Данные</span></h1>
-
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <label for="name" class="form-label">Имя</label>
-                                        <input type="text" class="form-control" placeholder="Имя" id="name" aria-label="First name">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="last-name" class="form-label">Фамилия</label>
-                                        <input type="text" class="form-control" placeholder="Фамилия" id="last-name" aria-label="Last name">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="name" class="form-label">Имя</label>
-                                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label for="name" class="form-label">Имя</label>
-                                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
-                                    </div>
-                                </div>
-
-
-
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="cart-summary sidebar">
-                                <h5 class="section-title mb-4"><span>Сумма</span></h5>
-
-                                <div class="d-grid">
-                                    <a href="#" class="btn btn-outline-danger">Оплата</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-
+        <section class="custom-width">
+            <div class="container-fluid ps-0 pe-0 mt-5 mb-5 ">
+                <h1 class="h4">Контакты:</h1>
+                <ul class="list-unstyled fw-light">
+                    <li>Почта: <b class="fw-bold">info@inten.ru</b></li>
+                    <li class="mb-5">Телефон: <b class="fw-bold">+7 (861) 202-54-44</b></li>
+                    <li>ООО «ИНТЕН»</li>
+                    <li>ИНН 2310035399 КПП 231201001</li>
+                    <li>Юр. адрес: 350075 г. Краснодар, ул. Селезнева, 112, литер Ж, офис 21/1</li>
+                </ul>
             </div>
-        </div>
+        </section>
+
+
+
     </main>
 
     <footer class="footer">

@@ -316,6 +316,10 @@ main.main {
   max-height: 400px;
 }
 
+.owl-carousel .owl-stage-outer {
+  padding-bottom: 20px;
+}
+
 .footer {
   background-color: var(--grey-color);
 }
@@ -326,6 +330,11 @@ main.main {
   }
   .sidebar .collapse-btn {
     display: none;
+  }
+}
+@media only screen and (min-width: 1921px) {
+  .custom-width {
+    max-width: 50%;
   }
 }
 
